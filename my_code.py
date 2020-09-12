@@ -2,8 +2,10 @@
 #  
 
 def find_gcf(x,y):   # Do not change function name!
-    # User code goes here
-
+    if (y == 0): 
+        return x 
+    else: 
+        return find_gcf(y,x%y) 
 
     return gcf
 
@@ -14,6 +16,6 @@ if __name__ == '__main__':
     print(find_gcf(6,9))
 
     # After you are satisfied with your results, use input() to prompt the user for two values:
-    #x = int(input("Enter a number: "))
-    #y = int(input("Enter another number: "))
+    x = int(input("Enter a number: "))
+    y = int(input("Enter another number: "))
 
