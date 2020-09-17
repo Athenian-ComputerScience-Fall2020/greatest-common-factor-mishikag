@@ -1,5 +1,5 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
-#  
+# shanie lee
 
 def find_gcf(x,y):   # Do not change function name!
     if (y == 0): 
